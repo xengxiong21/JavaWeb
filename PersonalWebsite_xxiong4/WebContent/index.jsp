@@ -4,24 +4,10 @@
 	<title>My Personal Website</title>
 	<link rel="sylesheet" href="styles/main.css" type ="text/css">
 </head>
-<body>
+<body>	
 	<h1>Welcome to my personal website!</h1>
-	<p>To connect with me, enter your name and email address below.</p>
+	<img src="./images/bike_image.jpg" alt="Home Page">
+	<p>To connect with me, visi my <a href="contact.jsp">contact page.</a>.</p>
 	<p>To learn more about me, visit my <a href="bio.html">Bio Page</a>.</p>
-	
-	<p><em>${message}</em></p>
-	
-	<form action="connect" method="post">
-		<label for ="firstName">First name:</label>
-		<input name="firstName" value ="${user.firstName}"><br>
-		
-		<label for ="lastName">Last name:</label>
-		<input name="lastName" value ="${user.lastName}"><br>
-		
-		<label for ="email">email:</label>
-		<input name="email" value ="${user.email}"><br>
-		
-		<input type="submit" value="Connect!">
-	</form>
 </body>
 </html>
