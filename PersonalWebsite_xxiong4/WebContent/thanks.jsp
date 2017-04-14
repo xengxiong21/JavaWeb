@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Thank You</title>
-	<link rel="sylesheet" href="styles/main.css" type ="text/css">
+	<link rel="stylesheet" href="styles/main.css" type ="text/css">
 </head>
 <body>
 	<h1>Thanks for connecting with me!</h1>

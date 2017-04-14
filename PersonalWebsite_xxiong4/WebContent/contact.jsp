@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Contact Page</title>
-	<link rel="sylesheet" href="styles/main.css" type ="text/css">
+	<link rel="stylesheet" href="styles/main.css" type ="text/css">
 </head>
 <body>
 	<h1>This is my contact page!</h1>
@@ -10,7 +10,7 @@
 	<p>To learn more about me, visit my <a href="bio.html">Bio Page</a>.</p>
 	<p>You can go back to my <a href="index.jsp">home page.</a>
 	
-	<p><em>${message}</em></p>
+	<p id='message'><em>${message}</em></p>
 	
 	<form action="connect" method="post">
 		<label for ="firstName">First name:</label>
